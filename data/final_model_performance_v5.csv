@@ -1,0 +1,11 @@
+city,target,sports_exog_retained,base_MAPE,final_MAPE,improvement_pp,improvement_pct,base_mape_source,resolution_note,improved
+Torino,arrivals,True,7.2030869014,5.38,1.8230869014,25.30980017811062,outputs/torino_sarimax/arrivals_model_comparison.csv [MAPE],Recovered automatically from an existing base/SARIMA project output.,True
+Torino,presences,True,4.1752032654,3.91,0.2652032654000003,6.351864772614676,outputs/torino_sarimax/presences_model_comparison.csv [MAPE],Recovered automatically from an existing base/SARIMA project output.,True
+Milano,arrivals,False,3.259114,3.259114,0.0,0.0,final_cross_city_model_comparison.csv,Final model is the retained base model; therefore base MAPE equals final MAPE.,False
+Milano,presences,False,3.171444,3.171444,0.0,0.0,final_cross_city_model_comparison.csv,Final model is the retained base model; therefore base MAPE equals final MAPE.,False
+Roma,arrivals,False,3.485569,3.485569,0.0,0.0,final_cross_city_model_comparison.csv,Final model is the retained base model; therefore base MAPE equals final MAPE.,False
+Roma,presences,False,5.614457,5.614457,0.0,0.0,final_cross_city_model_comparison.csv,Final model is the retained base model; therefore base MAPE equals final MAPE.,False
+Napoli,arrivals,True,3.214894,2.998992,0.2159020000000002,6.71568020594148,verified project result: Napoli base SARIMA vs final SARIMAX comparison,Automatic discovery did not resolve this case; used verified project-specific base MAPE fallback.,True
+Napoli,presences,True,3.187117,2.740774,0.4463430000000001,14.0046003959064,verified project result: Napoli base SARIMA vs final SARIMAX comparison,Automatic discovery did not resolve this case; used verified project-specific base MAPE fallback.,True
+Bologna,arrivals,False,4.336617,4.336617,0.0,0.0,final_cross_city_model_comparison.csv,Final model is the retained base model; therefore base MAPE equals final MAPE.,False
+Bologna,presences,False,3.907529,3.907529,0.0,0.0,final_cross_city_model_comparison.csv,Final model is the retained base model; therefore base MAPE equals final MAPE.,False

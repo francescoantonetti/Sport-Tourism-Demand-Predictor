@@ -1,0 +1,6 @@
+city,latitude,longitude,arrivals_base_MAPE,arrivals_final_MAPE,arrivals_improvement_pp,arrivals_improvement_pct,arrivals_sports_exog_retained,presences_base_MAPE,presences_final_MAPE,presences_improvement_pp,presences_improvement_pct,presences_sports_exog_retained,mean_final_MAPE,mean_improvement_pct,any_model_improved,supported_event_effect,supported_event_note
+Torino,45.0703,7.6869,7.203087,5.38,1.823087,25.3098,True,4.175203,3.91,0.265203,6.3519,True,4.645,15.8308,True,False,No statistically supported event-specific effect in current clean sample
+Milano,45.4642,9.19,3.259114,3.259114,0.0,0.0,False,3.171444,3.171444,0.0,0.0,False,3.215279,0.0,False,False,No statistically supported event-specific effect in current clean sample
+Roma,41.9028,12.4964,3.485569,3.485569,0.0,0.0,False,5.614457,5.614457,0.0,0.0,False,4.550013,0.0,False,False,No statistically supported event-specific effect in current clean sample
+Napoli,40.8518,14.2681,3.214894,2.998992,0.215902,6.7157,True,3.187117,2.740774,0.446343,14.0046,True,2.869883,10.3601,True,False,No statistically supported event-specific effect in current clean sample
+Bologna,44.4949,11.3426,4.336617,4.336617,0.0,0.0,False,3.907529,3.907529,0.0,0.0,False,4.122073,0.0,False,True,Davis Cup presences effect statistically supported (+12.2617%)
