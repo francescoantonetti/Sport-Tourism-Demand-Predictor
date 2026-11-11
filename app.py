@@ -45,15 +45,16 @@ st.markdown(
     [data-testid="stSidebar"] [role="radiogroup"] label,
     [data-testid="stSidebar"] [role="radiogroup"] label p {{ color: #FFFFFF !important; }}
 
-    .block-container {
-    padding-top: 4rem !important;
-    padding-bottom: 2rem;
-    max-width: 1450px;
-}
+    .block-container {{
+        padding-top: 4rem !important;
+        padding-bottom: 2rem;
+        max-width: 1450px;
+    }}
 
-[data-testid="stAppViewBlockContainer"] {
-    padding-top: 4rem !important;
-}
+    [data-testid="stAppViewBlockContainer"] {{
+        padding-top: 4rem !important;
+    }}
+    
     h1, h2, h3, h4, h5, h6 {{ color: {TEXT} !important; letter-spacing: -0.02em; }}
     [data-testid="stMarkdownContainer"] p,
     [data-testid="stMarkdownContainer"] li {{ color: {TEXT}; }}
