@@ -45,7 +45,15 @@ st.markdown(
     [data-testid="stSidebar"] [role="radiogroup"] label,
     [data-testid="stSidebar"] [role="radiogroup"] label p {{ color: #FFFFFF !important; }}
 
-    .block-container {{ padding-top: 1.6rem; padding-bottom: 2rem; max-width: 1450px; }}
+    .block-container {
+    padding-top: 4rem !important;
+    padding-bottom: 2rem;
+    max-width: 1450px;
+}
+
+[data-testid="stAppViewBlockContainer"] {
+    padding-top: 4rem !important;
+}
     h1, h2, h3, h4, h5, h6 {{ color: {TEXT} !important; letter-spacing: -0.02em; }}
     [data-testid="stMarkdownContainer"] p,
     [data-testid="stMarkdownContainer"] li {{ color: {TEXT}; }}
@@ -76,9 +84,14 @@ st.markdown(
         opacity: 1 !important;
     }}
 
-    .eyebrow {{ color: #355D7A !important; font-size: .78rem; font-weight: 800; letter-spacing: .18em; }}
-    .hero-title {{ color: {TEXT} !important; font-size: 2.25rem; font-weight: 850; margin-top: .35rem; }}
-    .hero-sub {{ color: #496279 !important; font-size: 1.05rem; margin-top: .45rem; }}
+    .eyebrow {{
+    color: #355D7A !important;
+    font-size: .78rem;
+    font-weight: 800;
+    letter-spacing: .18em;
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.3rem !important;
+    }}
 
     .info-box {{
         background: {PALE_BLUE} !important;
